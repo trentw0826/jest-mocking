@@ -21,6 +21,11 @@ class CatFact {
     return this.facts;
   }
 
+  // An untested filler method to demonstrate code coverage metrics
+  untested_filler() {
+    return 'This is a filler method.';
+  }
+
   // Call the given callback with a new cat fact every `time` milliseconds
   call(time, callback) {
     setInterval(async () => {
